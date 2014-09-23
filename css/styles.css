@@ -119,6 +119,7 @@ footer {
 /*image 2 */
 .section-two {
 	background: url('https://farm1.staticflickr.com/34/73471268_273ae2aa86_o.jpg') center;
+	background-size: cover;
 }
 
 /* image 4 */
@@ -160,8 +161,6 @@ img.downArrowImage:hover {
 		font: bold 38px helvetica, sans-serif;
 	color: white;
 	position: absolute;
-	pad ding:10px;
-	back ground-color: #232323;
 }
 
 .section-two h2, .section-four h2, .section-seven h2 { 
@@ -205,7 +204,6 @@ img.downArrowImage:hover {
 }
 
 .container img:hover {
-	opac ity: 0.5;
 	transform:scale(1.25);
 }
 
@@ -231,14 +229,6 @@ img.downArrowImage:hover {
 	display: inline-block;
 
 }
-
-
-
-
-/*.section-six {
-	background-color: black;
-	color: white;
-} */
 
 .section-seven {
 	position: relative;

@@ -30,7 +30,6 @@ $(document).ready(function() {
 			$('footer').hide();
 		}
 	})
-	
 
 	/* Parallax magic */
 	$(window).scroll(function(){
@@ -40,29 +39,6 @@ $(document).ready(function() {
 	    	$('*[class^="prlx"]').css('top', -(scrolled * .5) + 'px');			
 	    });
 	});
-
-	/*$(window).on('scroll', function() {
-
-		if(($(window).scrollTop() > 90)) {
-			$("html, body").animate({ scrollTop: $('.section-two').offset().top }, "slow");
-		} 
-		else {
-			$('.home').hide();
-			$('footer').hide();
-		}
-	}) */
-
-
-/* var iScrollPos = 0;
-
-$(window).scroll(function () {
-    var iCurScrollPos = $(this).scrollTop();
-    if (iCurScrollPos > iScrollPos && ($(window).scrollTop() > 90)) {
-        $("html, body").animate({ scrollTop: $('.section-two').offset().top }, "slow");
-    } 
-
-   
-}); */
 
 
 });	
