@@ -1,0 +1,259 @@
+/*-------------- Begin Header Footer Body ------------------ */
+body {
+	margin: 0;
+	font-family: helvetica, sans-serif;
+}
+
+header {
+	background: black;
+	width: 100%;
+	margin: 0;
+	position: absolute;
+}
+
+header ul {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+header li {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	float: right;
+	width: 150px;
+	height: 46px;
+	background: black;
+	border-left: 1px solid white;
+	color: white;
+	text-align:center;
+	margin-left: 2px;
+	line-height: 300%;
+}
+
+header li a {
+	display: block;
+	height: 46px;
+	width: 150px;
+	z-index: 1;
+	text-decoration: none;
+}
+
+header li a:hover {
+	font-weight: bold;
+}
+
+header li a:active, header li a:visited {
+	color: white;
+}
+
+
+
+header li:nth-child(2) {
+	border-right: 1px solid white;
+}
+
+header li.home {
+	display: none;
+	width: 50px;
+	position: fixed;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+	z-index: 77;
+	margin: 0 auto;
+	background: none;
+	border: none;
+}
+
+header li.home a {
+	width: 40px;
+	height: 40px;
+}
+
+header li.home a:hover {
+	background: none;
+}
+
+header img:hover {
+	transform:scale(1.25);
+}
+
+footer {
+	display: none;
+	background: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 50;
+	padding-top: 5px;
+}
+
+
+/*------------------ End Header Footer Body --------------------- */
+
+.prlx-1, .prlx-2{
+  position: absolute;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+/*------------------- Begin background images ------------- */
+/* image 1 */
+.prlx-1{ 
+	background: url('../images/sloth2.png') center;
+	background-size: cover;
+}
+
+/* image 3 */
+.prlx-2{ 
+	background: url('https://farm9.staticflickr.com/8290/7864852790_15bbc35532_o.jpg');
+	background-size: cover;
+}
+
+/*image 2 */
+.section-two {
+	background: url('https://farm1.staticflickr.com/34/73471268_273ae2aa86_o.jpg') center;
+}
+
+/* image 4 */
+.section-four {
+	background: url('https://farm3.staticflickr.com/2326/2378867408_5d2ac25d2f_o.jpg') center;
+	background-size: cover;
+}
+
+.section-seven {
+	background: url('../images/contactBackground.jpg') center;
+	background-size: cover;
+}
+
+/*----------------- End background images ----------------------- */
+
+#main p { 
+	width:75%;
+	margin: 10px auto;
+	font: 14px helvetica, sans-serif; line-height: 18px;
+}
+
+img.downArrowImage:hover {
+	transform:scale(1.25);
+}
+
+.section-one h2, .section-three h2{ 
+	font: bold 38px helvetica, sans-serif;
+	color: white;
+	position: absolute;
+	bottom:300px; left: 200px;
+	padding:10px;
+	background-color: #232323;
+}
+
+.section-one a{
+	position: absolute;
+	bottom: 250px;
+	left: 340px;
+		font: bold 38px helvetica, sans-serif;
+	color: white;
+	position: absolute;
+	pad ding:10px;
+	back ground-color: #232323;
+}
+
+.section-two h2, .section-four h2, .section-seven h2 { 
+	font: bold 38px helvetica, sans-serif;
+	color: black;
+	position: absolute;
+	bottom:250px; right: 200px;
+	padding:10px;
+	background-color: white;
+}
+
+.section-five h2 { 
+	font: bold 38px helvetica, sans-serif;
+	color: white;
+	position: absolute;
+	bottom:300px; left: 125px;
+	padding:10px;
+	background-color: #232323;
+}
+
+
+
+
+.section-one, .section-two, .section-three, .section-four, .section-five, .section-seven{
+	width: 100%; min-height: 900px;
+	position: relative;
+	overflow: hidden;
+}
+
+.container {
+	clear: both;
+}
+
+.container img {
+    width: auto;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+	border-radius: 4px;
+	box-shadow: 10px 10px 5px black;
+}
+
+.container img:hover {
+	opac ity: 0.5;
+	transform:scale(1.25);
+}
+
+.container h3 {
+	font-size: 25px;
+}
+/*------------ section-five ----------------------*/
+.section-five {
+	/*background: url("https://farm1.staticflickr.com/3/5106552_77592ce5d9_b.jpg") center; */
+	background: url('https://farm4.staticflickr.com/3475/3292143183_82356f0d0c_o.jpg') center;
+	background-size: cover;
+	color: white;
+}
+
+.personal, .professional {
+	float: left;
+	width: 50%;
+	height: 900px;
+	text-align: center;
+}
+
+.personal {
+	display: inline-block;
+
+}
+
+
+
+
+/*.section-six {
+	background-color: black;
+	color: white;
+} */
+
+.section-seven {
+	position: relative;
+}
+ 
+.section-seven a {
+	position: absolute;
+	top: 300px;
+	right: 200px;
+}
+
+.section-seven img:hover {
+	transform:scale(1.25);
+}
+
+
+
+
