@@ -38,10 +38,12 @@ header li a {
 	width: 150px;
 	z-index: 1;
 	text-decoration: none;
+	color: white;
 }
 
 header li a:hover {
 	font-weight: bold;
+	color: white;
 }
 
 header li a:active, header li a:visited {
@@ -72,9 +74,7 @@ header li.home a {
 	height: 40px;
 }
 
-header li.home a:hover {
-	background: none;
-}
+
 
 header img:hover {
 	transform:scale(1.25);
@@ -196,10 +196,8 @@ img.downArrowImage:hover {
 
 .container img {
     width: auto;
-    max-height: 200px;
-    display: block;
-    margin: 0 auto;
-	border-radius: 4px;
+    max-height: 75px;
+	bord er-radius: 4px;
 	box-shadow: 10px 10px 5px black;
 }
 
@@ -207,9 +205,22 @@ img.downArrowImage:hover {
 	transform:scale(1.25);
 }
 
-.container h3 {
-	font-size: 25px;
+.project {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 150px;
+	width: 275px;
+	margin: 10px auto;
+	border: white 1px solid;
+	border-radius: 4px;
 }
+
+
+.container h3 {
+	font-size: 30px;
+}
+
+
 /*------------ section-five ----------------------*/
 .section-five {
 	/*background: url("https://farm1.staticflickr.com/3/5106552_77592ce5d9_b.jpg") center; */
